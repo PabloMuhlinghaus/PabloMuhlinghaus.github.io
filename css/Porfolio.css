@@ -1,0 +1,182 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+body
+{
+	
+	background-color: black;
+}
+h3
+{
+	padding: 1em 3em;
+	margin: 1em 25%;
+}
+.container2:hover .capaAuxVideo
+{
+	opacity: 1;
+}
+.container2
+{
+	position: relative;
+	width: 300px;
+	height: 300px;	
+	margin: 100px auto 0 auto;
+	
+}
+.capaAuxImagen2
+{
+	position:relative;
+	width: 300px;
+	height: 300px;
+}
+
+
+.capaAuxImagen2 img{
+	width: 100%;
+}
+
+.capaAuxVideo
+{
+	opacity:0;
+	position:absolute;
+	top:0;
+	transition: 1s all ease;
+	transform: translate(-25%); 
+}
+
+
+#ImagenPerfil
+{
+	margin-top: 100px;
+	margin-left: 40%;
+	margin-bottom:25px;
+	position: absolute;
+}
+#MenuAsignaturas
+{
+	
+	margin-left: 50px;
+	margin-bottom: 0px;
+	
+
+}
+
+#Parrafos
+{
+	margin: 5px 0px 0px 0px;
+	font-size: 20px;
+	text-indent: 100px;
+	color: white;
+	
+}
+#Subtitulos
+{
+	margin: 100px 150px 100px 80px;
+	font-size: 45px;
+	color: #ff6600;
+	clear: both;
+	text-align: center;
+}
+#Texto
+{
+	margin: 5px 100px 0px 100px;
+	font-size: 20px;
+	text-indent: 30px;
+	color: white;
+	
+}
+#Titulo
+{
+	font: 120px 'Acme', cursive;
+	text-align:center;
+	width: 700px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 100px;
+	color: #f2f2f2;
+	
+}
+
+#Iconos  {
+	margin-left: 25%;
+	margin-top: 20px;
+}
+
+
+#SaltoLineaHead 
+{
+	margin-left: auto;
+	margin-top:	20px;
+    
+}
+
+#container {
+    
+	margin-top: 10px;
+    margin-left: 15%;
+	width: 100%;
+	height: 100%;
+
+}
+
+#containerVID {
+    
+	
+	position: relative;
+	
+
+	
+
+}
+
+#containerVID  video{
+    
+	
+	margin: auto;
+}
+
+#CajaInformacion 
+{
+	position: fixed;
+    right: 4px;
+	top: 800px;
+    width: 300px;
+    border: 3px inset;
+    padding: 10px;
+	color: white;
+	background-color: #0d0d0d;
+}
+#Prueba
+{
+	background-image: url("Fondo.jpg");
+	background-attachment: fixed;
+}
+
+div.gallery {
+    margin-top: 10px;
+    float: left;
+	
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+	position: relative;
+}
+
+div.CajaInformacion {
+    position: fixed;
+    right: 4px;
+	top: 800px;
+    width: 300px;
+    border: 3px inset;
+    padding: 10px;
+	color: white;
+	background-color: #0d0d0d;
+}
+
+div.CajaInformacion:hover {
+    width: 600px;
+}
+
